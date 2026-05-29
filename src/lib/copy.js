@@ -1,211 +1,211 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// COPY.JS — Fuente única de TODO el texto visible de la landing.
-// Doc §7: cero texto hardcodeado en componentes. Si está en pantalla, está aquí.
+// COPY.JS — Sursa pentru TOT textul vizibil de pe landing page.
+// Doc §7: Fără text hardcodat în componente. Dacă e pe ecran, e aici.
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const copy = {
-  // ── SEO / METADATA (Layout.astro lo lee) ──────────────────────────────────
+  // ── SEO / METADATA (Layout.astro citește asta) ──────────────────────────────
   metadata: {
-    lang: 'pt-BR',
-    title: '150 receitas de drinks gourmet',
+    lang: 'ro',
+    title: '150 de rețete pentru cocktailuri premium la tine acasă',
     description:
-      'Receitas de drinks prontas para vender — ingredientes simples, produção rápida e margem de lucro alta. Comece a faturar até R$3.000/mês com bônus exclusivos.',
+      'Rețete de cocktailuri gata de petrecere — ingrediente simple, preparare rapidă. Impresionează-ți prietenii, economisește banii dați pe baruri scumpe și devino vedeta serii. Include bonusuri exclusive.',
     canonical: 'https://150receitascopao.netlify.app',
     ogImage: '/og-cover.jpg',
     ogType: 'website',
-    siteName: 'MUNDO DOS DRINKS',
+    siteName: 'LUMEA COCKTAILURILOR',
   },
 
-  // ── 1. TIMER STICKY ARRIBA ────────────────────────────────────────────────
+  // ── 1. TIMER STICKY ANTE ──────────────────────────────────────────────────
   timerBar: {
     icon: '⏰',
-    label: 'Promoção encerra em:',
+    label: 'Oferta expiră în:',
     initialMinutes: 9,
     initialSeconds: 57,
   },
 
   // ── 2. HERO ───────────────────────────────────────────────────────────────
   hero: {
-    tag: '🍋 Oferta Exclusiva',
-    titleHighlight: '150 Receitas de copão Gourmet',
-    titleConnector: 'para Vender',
-    titleHighlightGreen: 'R$3.000',
-    titleEnd: 'Começando do Zero',
-    deliveryLabel: 'Você recebe imediatamente no',
+    tag: '🍋 Ofertă Exclusivă',
+    titleHighlight: '150 de Rețete de Cocktailuri Geniale',
+    titleConnector: 'pentru',
+    titleHighlightGreen: 'Plăcerea Ta',
+    titleEnd: 'Chiar dacă ești la început',
+    deliveryLabel: 'Primești acces imediat pe',
     deliveryChannels: [
       { label: 'WhatsApp', kind: 'whatsapp' },
       { label: 'Email', kind: 'email' },
     ],
-    videoAlt: 'Apresentação do kit 150 receitas de drinks gourmet',
-    ctaLabel: '✅ QUERO GARANTIR MINHAS RECEITAS AGORA',
-    ctaSub: '🔒 Compra 100% segura • Acesso imediato',
+    videoAlt: 'Prezentarea pachetului cu 150 de rețete pentru cocktailuri făcute în casă',
+    ctaLabel: '✅ VREAU SĂ IAU REȚETELE ACUM',
+    ctaSub: '🔒 Achiziție 100% sigură • Acces instantaneu',
   },
 
-  // ── 3. BENEFÍCIOS ─────────────────────────────────────────────────────────
+  // ── 3. BENEFICII ─────────────────────────────────────────────────────────
   benefits: {
     intro:
-      'Receitas de drinks prontas para vender — ingredientes simples, produção rápida,',
-    introStrong: 'alto valor percebido e margem de lucro que vai te surpreender!',
+      'Rețete create pentru plăcere maximă — ingrediente simple, preparare super rapidă,',
+    introStrong: 'un gust și un aspect demențial, cu care vei lăsa mască orice invitat!',
     items: [
-      'Qualquer pessoa consegue fazer',
-      'Sem cozinha profissional ou equipamentos caros',
-      'Receitas prontas, testadas e com custo baixo',
-      'Perfeito para vender no WhatsApp, rua ou delivery',
+      'Să prepari orice cocktail fără pic de experiență anterioară',
+      'Să faci magie fără ustensile de fițe sau o bucătărie scumpă',
+      'Să te bucuri de rețete testate, cu ingrediente super accesibile',
+      'Să fii sufletul oricărei petreceri acasă, la cabană sau la ieșirile cu gașca',
     ],
-    ctaLabel: '🍹 QUERO GARANTIR MINHAS RECEITAS AGORA',
+    ctaLabel: '🍹 VREAU SĂ IAU REȚETELE ACUM',
   },
 
-  // ── 4. CARRUSEL DE RECETAS ────────────────────────────────────────────────
+  // ── 4. CARUSEL CU REȚETE ────────────────────────────────────────────────
   carousel: {
-    title: '🍹 Algumas das receitas que você irá',
-    titleHighlight: 'aprender e lucrar!',
+    title: '🍹 O mică parte din rețetele pe care',
+    titleHighlight: 'le vei savura cu prietenii!',
     slides: [
-      { caption: 'Copão Beijo Doce', alt: 'Drink Copão Beijo Doce' },
+      { caption: 'Sărut Dulce', alt: 'Cocktail Sărut Dulce' },
       {
-        caption: 'Espanhola de Vinho c/ Maracujá',
-        alt: 'Drink Espanhola de Vinho com Maracujá',
+        caption: 'Vin Spaniol cu Maracuja',
+        alt: 'Cocktail Vin Spaniol cu Maracuja',
       },
-      { caption: 'MaracuBeats Cremosa', alt: 'Drink MaracuBeats Cremosa' },
-      { caption: 'Batida de Bala Halls', alt: 'Drink Batida de Bala Halls' },
-      { caption: 'Drink do Verão', alt: 'Drink do Verão' },
+      { caption: 'MaracuBeats Cremos', alt: 'Cocktail MaracuBeats Cremos' },
+      { caption: 'Cocktail cu bomboane Halls', alt: 'Cocktail cu bomboane Halls' },
+      { caption: 'Briză de Vară', alt: 'Cocktail Briză de Vară' },
       {
-        caption: 'Caipirinha de Maracujá c/ Café',
-        alt: 'Drink Caipirinha de Maracujá com Café',
+        caption: 'Caipirinha cu Maracuja și Cafea',
+        alt: 'Cocktail Caipirinha cu Maracuja și Cafea',
       },
     ],
-    prevLabel: 'Slide anterior',
-    nextLabel: 'Próximo slide',
-    dotLabel: 'Ir para o slide',
+    prevLabel: 'Slide-ul anterior',
+    nextLabel: 'Slide-ul următor',
+    dotLabel: 'Către slide',
   },
 
-  // ── 5. BÔNUS ──────────────────────────────────────────────────────────────
+  // ── 5. BONUSURI ──────────────────────────────────────────────────────────────
   bonuses: {
-    title: '🎁 E ainda tem',
-    titleHighlight: 'BÔNUS!',
+    title: '🎁 Și bineînțeles, ai parte de',
+    titleHighlight: 'BONUSURI!',
     items: [
       {
-        tag: 'Bônus 1',
-        title: '50 Receitas Alcoólicas de Batidas na Garrafa',
-        description: 'Receitas prontas para vender, sem os bônus exclusivos.',
-        alt: '50 Receitas Alcoólicas de Batidas na Garrafa',
+        tag: 'Bonus 1',
+        title: '50 de Rețete pentru shot-uri și punch-uri cu alcool',
+        description: 'Băuturile perfecte pentru petreceri, pe care să le faci rapid și să le împarți cu toată lumea.',
+        alt: '50 de Rețete pentru shot-uri și punch-uri',
       },
       {
-        tag: 'Bônus 2',
-        title: 'Tabela de Precificação — Quanto Cobrar em Cada Receita',
+        tag: 'Bonus 2',
+        title: 'Lista inteligentă de cumpărături — cum să nu arunci cu banii',
         description:
-          'Saiba exatamente quanto cobrar para lucrar de verdade em cada drink que vender.',
-        alt: 'Tabela de Precificação dos drinks',
+          'Află exact ce ingrediente să cumperi ca să faci cocktailuri de top, fără să-ți golești buzunarele prin baruri scumpe.',
+        alt: 'Listă de cumpărături și calculator',
       },
       {
-        tag: 'Bônus 3',
-        title: '✅ Roteiro Pronto: Como Anunciar no WhatsApp e Fechar Vendas',
-        description: 'Scripts prontos para você copiar, colar e já começar a vender.',
-        alt: 'Roteiro de vendas pelo WhatsApp',
+        tag: 'Bonus 3',
+        title: '✅ Ghid practic: Cum să organizezi seara perfectă de cocktailuri',
+        description: 'Idei gata făcute și pași exacți pentru a crea o experiență de neuitat și a-ți da pe spate invitații.',
+        alt: 'Ghid pentru petreceri acasă',
       },
       {
-        tag: 'Bônus 4',
-        title: 'Videoaula: Como Embalar e Apresentar para Vender Mais',
+        tag: 'Bonus 4',
+        title: 'Tutorial Video: Cum să decorezi și să servești ca un barman pro',
         description:
-          'Aprenda a deixar seus produtos irresistíveis e cobrar mais caro por isso.',
-        alt: 'Videoaula sobre embalagem e apresentação',
+          'Învață secretele unei prezentări vizuale care transformă o băutură banală într-o capodoperă de 5 stele.',
+        alt: 'Tutorial video pentru decorarea cocktailurilor',
       },
     ],
   },
 
-  // ── 6. PREÇO ──────────────────────────────────────────────────────────────
+  // ── 6. PREȚURI ──────────────────────────────────────────────────────────────
   pricing: {
-    sectionId: 'precos',
-    title: 'Escolha como quer começar hoje:',
+    sectionId: 'preturi',
+    title: 'Alege cum vrei să începi azi:',
     complete: {
-      badge: '⭐ Mais Vendido',
-      title: 'Kit Completo +150 Receitas de Drinks',
-      descriptionLead: '+150 receitas de drinks na garrafa prontas para vender + todos os',
-      descriptionStrong: 'bônus exclusivos',
-      descriptionTail: 'para você faturar até R$3.000/mês.',
-      mockupAlt: 'Mockup do Kit 150 Receitas de Copão Gourmet',
-      includesLabel: '🎁 Inclui todos os bônus:',
+      badge: '⭐ Cel mai vândut',
+      title: 'Pachetul Complet: Peste 150 de Rețete de Cocktailuri',
+      descriptionLead: '150+ rețete pentru cocktailuri de casă incredibile + toate',
+      descriptionStrong: 'bonusurile exclusive,',
+      descriptionTail: 'ca să devii cel mai tare barman la tine acasă.',
+      mockupAlt: 'Mockup Pachet Complet cu 150 de Rețete',
+      includesLabel: '🎁 Include toate bonusurile:',
       items: [
-        '+150 receitas de drinks gourmet',
-        'Lista de fornecedores baratos para garrefinhas',
-        'Tabela de precificação — todos os drinks',
-        'Roteiro de vendas pelo WhatsApp',
-        'Videoaula: como embalar e vender mais',
+        'Peste 150 de rețete de cocktailuri premium',
+        'Lista cu alternative ieftine la băuturile fine scumpe',
+        'Ghid pentru cumpărături inteligente de ingrediente',
+        'Manualul pentru petrecerea perfectă acasă',
+        'Tutorial video pentru decorațiuni de nota 10',
       ],
-      strikePrice: 'De R$59,90',
-      price: 'R$24,90',
-      priceNote: 'acesso imediato',
-      ctaLabel: '🛒 QUERO O KIT COMPLETO',
-      footer: '✅ Acesso imediato · E-mail + WhatsApp · Garantia de 7 dias',
+      strikePrice: 'De la 145 lei',
+      price: '35 lei',
+      priceNote: 'acces imediat',
+      ctaLabel: '🛒 VREAU PACHETUL COMPLET',
+      footer: '✅ Acces imediat · Email + WhatsApp · Garanție 14 zile',
     },
   },
 
-  // ── 7. GARANTIA ───────────────────────────────────────────────────────────
+  // ── 7. GARANȚIE ───────────────────────────────────────────────────────────
   guarantee: {
     icon: '🛡️',
-    title: 'Garantia de 7 dias',
+    title: '14 zile garanție totală',
     description:
-      'Se por qualquer motivo você não gostar, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.',
+      'Dacă din orice motiv nu ești absolut încântat de rețete, îți dăm banii înapoi până la ultimul leu. Fără întrebări ciudate, fără bătăi de cap.',
   },
 
-  // ── 8. FAQ ────────────────────────────────────────────────────────────────
+  // ── 8. FAQ (Întrebări frecvente) ────────────────────────────────────────────────
   faq: {
-    title: 'Dúvidas',
-    titleHighlight: 'frequentes:',
+    title: 'Întrebări',
+    titleHighlight: 'frecvente:',
     items: [
       {
-        q: 'Preciso saber cozinhar para comprar?',
-        a: 'Não! As receitas são simples e qualquer pessoa consegue fazer, mesmo sem experiência na cozinha.',
+        q: 'Trebuie să am experiență ca să le prepar?',
+        a: 'Sub nicio formă! Rețetele sunt explicate atât de simplu încât oricine le poate face, chiar dacă n-ai mai amestecat o băutură în viața ta.',
       },
       {
-        q: 'Preciso de equipamentos caros ou cozinha profissional?',
-        a: 'Não precisa. Tudo pode ser feito em casa com utensílios simples que você provavelmente já tem.',
+        q: 'Am nevoie de shakere scumpe și ustensile de fițe?',
+        a: 'Nici gând. Totul se poate face acasă cu ustensile obișnuite pe care punem pariu că deja le ai prin bucătărie.',
       },
       {
-        q: 'Onde vou vender os drinks?',
-        a: 'Você pode vender no WhatsApp, nas redes sociais, em festas, por delivery ou até na rua. O bônus 3 te ensina exatamente como fazer isso.',
+        q: 'Pentru ce fel de ocazii se potrivesc cocktailurile astea?',
+        a: 'Pentru orice! De la o relaxare pe canapea după o zi lungă de muncă, la o cină romantică, până la un chef nebun acasă sau la cabană.',
       },
       {
-        q: 'Quanto posso cobrar por cada garrafa?',
-        a: 'Com a tabela de precificação incluída, você vai saber exatamente quanto cobrar para ter uma margem de lucro alta em cada venda.',
+        q: 'Sunt scumpe ingredientele?',
+        a: 'Nu. Cu lista noastră inteligentă de cumpărături vei învăța cum să obții un gust premium cu produse super accesibile, luate de la supermarketul din colț.',
       },
       {
-        q: 'Como recebo após a compra?',
-        a: 'O acesso é imediato! Você recebe no e-mail e no WhatsApp assim que o pagamento for confirmado.',
+        q: 'Cum o să primesc accesul după ce cumpăr?',
+        a: 'Accesul este instant! Imediat ce plata este confirmată, primești totul direct pe email și pe WhatsApp.',
       },
       {
-        q: 'Tenho garantia se não gostar?',
-        a: 'Sim! Você tem 7 dias de garantia total. Se não gostar por qualquer motivo, devolvemos 100% do valor pago.',
+        q: 'Există vreo garanție dacă nu îmi plac?',
+        a: 'Bineînțeles! Ai la dispoziție 14 zile de garanție totală. Dacă nu ești mulțumit, îți returnăm 100% din bani fără discuții.',
       },
     ],
   },
 
-  // ── 9. URGÊNCIA ──────────────────────────────────────────────────────────
+  // ── 9. URGENȚĂ ──────────────────────────────────────────────────────────
   urgency: {
-    text: '⏰ Não fique esperando — cada dia sem vender é dinheiro perdido!',
+    text: '⏰ Nu mai amâna — vine weekendul, și odată cu el riști încă o seară plictisitoare. Schimbă placa chiar acum!',
   },
 
   // ── 10. CTA FINAL ─────────────────────────────────────────────────────────
   finalCta: {
-    ctaLabel: '🍹 QUERO ACESSO ÀS 150 RECEITAS AGORA',
-    subText: '🔒 Acesso imediato • Garantia de 7 dias • Pagamento seguro',
+    ctaLabel: '🍹 VREAU ACCES LA CELE 150 DE REȚETE ACUM',
+    subText: '🔒 Acces instantaneu • Garanție 14 zile • Plată sigură',
   },
 
-  // ── 11. SEGURIDAD (badges) ────────────────────────────────────────────────
+  // ── 11. SECURITATE (insigne) ────────────────────────────────────────────────
   security: {
     items: [
-      { icon: '🔒', label: 'SSL Seguro' },
-      { icon: '💳', label: 'Pagamento Protegido' },
-      { icon: '📲', label: 'Acesso Imediato' },
+      { icon: '🔒', label: 'Protecție SSL' },
+      { icon: '💳', label: 'Plată sigură' },
+      { icon: '📲', label: 'Acces imediat' },
     ],
   },
 
   // ── 12. FOOTER ────────────────────────────────────────────────────────────
   footer: {
-    text: '© 2026 · MUNDO DOS DRINKS · Todos os direitos reservados',
+    text: '© 2026 · LUMEA COCKTAILURILOR · Toate drepturile rezervate',
   },
 
-  // ── A11Y / texto auxiliar (no visible "directamente" pero usado en aria) ──
+  // ── A11Y / text ajutător ──
   a11y: {
-    skipToContent: 'Ir para o conteúdo principal',
+    skipToContent: 'Sari la conținutul principal',
   },
 };
