@@ -7,7 +7,7 @@ export const copy = {
   // ── SEO / METADATA (Layout.astro citește asta) ──────────────────────────────
   metadata: {
     lang: 'ro',
-    title: '150 de rețete pentru cocktailuri premium la tine acasă',
+    title: '500 de rețete pentru cocktailuri premium la tine acasă',
     description:
       'Rețete de cocktailuri gata de petrecere — ingrediente simple, preparare rapidă. Impresionează-ți prietenii, economisește banii dați pe baruri scumpe și devino vedeta serii. Include bonusuri exclusive.',
     canonical: 'https://150receitascopao.netlify.app',
@@ -27,7 +27,7 @@ export const copy = {
   // ── 2. HERO ───────────────────────────────────────────────────────────────
   hero: {
     tag: '🍋 Ofertă Exclusivă',
-    titleHighlight: '150 de Rețete de Cocktailuri Geniale',
+    titleHighlight: '500 de Rețete de Cocktailuri Geniale',
     titleConnector: 'pentru',
     titleHighlightGreen: 'Plăcerea Ta',
     titleEnd: 'Chiar dacă ești la început',
@@ -36,7 +36,7 @@ export const copy = {
       { label: 'WhatsApp', kind: 'whatsapp' },
       { label: 'Email', kind: 'email' },
     ],
-    videoAlt: 'Prezentarea pachetului cu 150 de rețete pentru cocktailuri făcute în casă',
+    videoAlt: 'Prezentarea pachetului cu 500 de rețete pentru cocktailuri făcute în casă',
     ctaLabel: '✅ VREAU SĂ IAU REȚETELE ACUM',
     ctaSub: '🔒 Achiziție 100% sigură • Acces instantaneu',
   },
@@ -118,14 +118,14 @@ export const copy = {
     title: 'Alege cum vrei să începi azi:',
     complete: {
       badge: '⭐ Cel mai vândut',
-      title: 'Pachetul Complet: Peste 150 de Rețete de Cocktailuri',
-      descriptionLead: '150+ rețete pentru cocktailuri de casă incredibile + toate',
+      title: 'Pachetul Complet: Peste 500 de Rețete de Cocktailuri',
+      descriptionLead: '500+ rețete pentru cocktailuri de casă incredibile + toate',
       descriptionStrong: 'bonusurile exclusive,',
       descriptionTail: 'ca să devii cel mai tare barman la tine acasă.',
-      mockupAlt: 'Mockup Pachet Complet cu 150 de Rețete',
+      mockupAlt: 'Mockup Pachet Complet cu 500 de Rețete',
       includesLabel: '🎁 Include toate bonusurile:',
       items: [
-        'Peste 150 de rețete de cocktailuri premium',
+        'Peste 500 de rețete de cocktailuri premium',
         'Lista cu alternative ieftine la băuturile fine scumpe',
         'Ghid pentru cumpărături inteligente de ingrediente',
         'Manualul pentru petrecerea perfectă acasă',
@@ -186,7 +186,7 @@ export const copy = {
 
   // ── 10. CTA FINAL ─────────────────────────────────────────────────────────
   finalCta: {
-    ctaLabel: '🍹 VREAU ACCES LA CELE 150 DE REȚETE ACUM',
+    ctaLabel: '🍹 VREAU ACCES LA CELE 500 DE REȚETE ACUM',
     subText: '🔒 Acces instantaneu • Garanție 14 zile • Plată sigură',
   },
 
